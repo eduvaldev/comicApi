@@ -1,0 +1,33 @@
+$base-color: #888385;
+$base-dark-color: #010001;
+$color-light: #fff;
+
+.nav-right{
+  width: 6%;
+  max-width: 60px;
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  .selct-op{
+    text-align: center;
+    i{
+      color: $base-color;
+      font-size: 35px;
+      margin-bottom: 5px;
+      transition: 0.3s ease-in;
+    }
+    p{
+      opacity: 0;
+      transition: 0.3s ease-in;
+    }
+    &:hover i,
+    &:hover p{
+      color: $color-light;
+      opacity: 1;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+$base-color: #888385;
+$base-dark-color: #010001;
+$color-light: #fff;
+
+.info-social{
+  width: 6%;
+  max-width: 60px;
+  height: 100%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  .cont-info{
+    height: 30%;
+    h3{
+      writing-mode: vertical-rl;
+      font-weight: 700;
+    }
+  }
+  .social{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    i{ 
+      font-size: 1.5rem;
+      color: $base-color;
+      transition: 0.3s ease-in;
+      &:hover{
+        color: $color-light;
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+export const ADD_INITAL_COMIC = 'ADD_INITAL_COMIC';
+export const FETCH_COMIC = 'FETCH_COMIC';
+export const TRUE_LOADER = 'TRUE_LOADER';
